@@ -1,0 +1,34 @@
+{
+//	"Format": "1.23.0",
+
+	"Changes": [
+	{
+		"LogName": "Adds mail owls in town",
+		"Action": "EditMap",
+		"Target": "Maps/Town",
+		"MapTiles": [
+            {
+               "Position": { "X": 40, "Y": 58 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn {{Random: 0, 1, 2}} StarAmy.MailOwls.OwlLight"
+               },
+            },
+             {
+               "Position": { "X": 41, "Y": 58 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn {{Random: 0, 1, 2}} StarAmy.MailOwls.OwlMed"
+               },
+            },
+             {
+               "Position": { "X": 42, "Y": 58 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn {{Random: 0, 1, 2}} StarAmy.MailOwls.OwlDark"
+               },
+            },
+         ],
+	},
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"Name": "[CP] Mail Owls",
+	"Author": "StarAmy",
+	"Version": "1.0.0",
+	"Description": "Adds postal service owls hanging around town.",
+	"UniqueID": "StarAmy.MailOwlSpawns",
+	"MinimumApiVersion": "3.6.0",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+   "Dependencies": [
+	   {
+		"UniqueID": "PeacefulEnd.CustomCompanions",
+		"IsRequired": true,
+	   },
+	   {
+		"UniqueID": "spacechase0.GenericModConfigMenu",
+		"IsRequired": false,
+	   }, 
+   ]
+}

@@ -1,0 +1,11 @@
+﻿{
+	"Name": "[CC] Mail Owls",
+	"Author": "StarAmy",
+	"Version": "1.0.0",
+	"Description": "Adds postal service owls hanging around town.",
+	"UniqueID": "StarAmy.MailOwls",
+	"ContentPackFor": {
+		"UniqueID": "PeacefulEnd.CustomCompanions",
+		"MinimumVersion": "1.4.3"
+  }
+}
